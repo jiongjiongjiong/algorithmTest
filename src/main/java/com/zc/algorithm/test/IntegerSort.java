@@ -18,5 +18,6 @@ public class IntegerSort {
         numbers.sort(Comparator.naturalOrder());
         //[1, 2, 4, 6, 9]
         System.out.println(numbers);
+
     }
 }

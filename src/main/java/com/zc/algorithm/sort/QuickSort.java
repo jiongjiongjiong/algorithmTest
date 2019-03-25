@@ -1,4 +1,10 @@
-package com.zc.algorithm;
+package com.zc.algorithm.sort;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @description: 快速排序
@@ -6,11 +12,24 @@ package com.zc.algorithm;
  * @date: 2019-03-01
  */
 
-public class quicksort {
+public class QuickSort {
 
     public static void main(String[] args) {
         int[] array = new int[]{85,24,63,45,17,31,96,50};
 
+
+        int target = 9;
+        int[] array2 = new int[] {2, 7, 11, 15};
+        Map<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i < array2.length; i++) {
+            int i1 = target - array2[i];
+            if (map.containsKey(i1)){
+                System.out.println();
+            }
+        }
+
+
+        System.out.println("=========================================");
         for (int value : array) {
             System.out.print(value + " ");
         }
