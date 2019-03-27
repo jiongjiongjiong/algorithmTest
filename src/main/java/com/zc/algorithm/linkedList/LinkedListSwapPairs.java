@@ -17,7 +17,7 @@ public class LinkedListSwapPairs {
 //            a.next = temp;
 //            pre = a;
 
-        ListNode dummy =new ListNode(0);
+        ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode pre = dummy;
         while(pre.next != null && pre.next.next != null){

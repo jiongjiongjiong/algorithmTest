@@ -16,8 +16,6 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] array = new int[]{85,24,63,45,17,31,96,50};
-
-
         int target = 9;
         int[] array2 = new int[] {2, 7, 11, 15};
         Map<Integer,Integer> map = new HashMap<>();

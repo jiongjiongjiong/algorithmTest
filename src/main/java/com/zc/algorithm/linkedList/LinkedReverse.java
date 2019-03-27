@@ -56,10 +56,10 @@ public class LinkedReverse {
             h = h.getNext();
         }
         System.out.println("\n**************************");
-        ListNode resutl = reverseList(head);
-        while (null != resutl) {
-            System.out.print(resutl.getVal() + " ");
-            resutl = resutl.getNext();
+        ListNode result = reverseList(head);
+        while (null != result) {
+            System.out.print(result.getVal() + " ");
+            result = result.getNext();
         }
 
     }
